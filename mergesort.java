@@ -21,12 +21,10 @@ public class mergesort {
         int lArr[] = new int[n1];
         int rArr[] = new int[n2];
 
-        // Copy left array
         for (int x = 0; x < n1; x++) {
             lArr[x] = arr[l + x];
         }
 
-        // Copy right array
         for (int x = 0; x < n2; x++) {
             rArr[x] = arr[mid + 1 + x];
         }

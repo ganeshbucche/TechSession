@@ -19,6 +19,7 @@ public class Sumofnumbers{
         int result = sum(n);
 
         System.out.println("Sum is : "+ result);
+        
     }
 
 

@@ -23,12 +23,9 @@ public class selectionsort {
     public static void main(String args[]) {
 
         int arr[] = {5,6,2,4,1};
-
         selsort(arr);
         for(int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
-        }
-
-        
+        }        
     }
 }
