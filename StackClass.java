@@ -20,7 +20,7 @@ public class StackClass{
                 return;
 
             }
-            newNode.next = head;
+            newNode.next = head;     
             head = newNode;
         }
         public static int pop(){
